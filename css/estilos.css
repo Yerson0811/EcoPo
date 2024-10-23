@@ -1,0 +1,86 @@
+
+/* Estilos generales */
+body {
+	background-color: #f2f2f2; /* Color de fondo gris claro */
+	color: #333; /* Color del texto principal negro */
+	font-family: 'Arial', sans-serif; /* Fuente principal */
+}
+
+.container {
+	width: 80%; /* Ancho del contenedor principal */
+	margin: 0 auto; /* Centrar el contenedor en la página */
+  }
+  
+  /* Estilos para la barra de navegación */
+.navbar{
+	background-color: #333; /* Fondo oscuro para la barra de navegación */
+	color: #fff; /* Texto blanco para los enlaces de navegación */
+	text-decoration: none; /* Sin subrayado en los enlaces */
+	padding: 10px 15px; /* Espaciado interno para los enlaces */
+	display: inline-block; /* Mostrar enlaces en línea */
+}
+
+.navbar-toggler-icon {
+	background-color: #4caf50; /* Verde */
+	color: #fff; /* Blanco */
+	width: 50px;
+	padding: 10px 0;
+}
+
+.navbar-toggler-icon:hover {
+	background-color: #4caf50;
+	color: #fff;
+	width: 50px;
+	padding: 10px 0;
+}
+
+.navbarDropdownMenuLink{
+	color: #0000;
+}
+  
+header {
+	background-color: #4caf50; /* Verde para resaltar el encabezado */
+	color: #fff; /* Texto blanco para contrastar */
+	padding: 20px; /* Espaciado interno para el contenido del encabezado */
+}
+  
+main {
+	padding: 20px 0; /* Espaciado interno para el contenido principal */
+}
+
+section {
+	margin-bottom: 20px; /* Margen inferior entre secciones */
+}
+  
+/* Estilos para botones */
+button {
+	background-color: #FFA500; /* Naranja */
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+  
+button:hover {
+	color: #fff;
+	background-color: #4caf50;
+	transition: color 0.3s ease;
+}
+  
+footer {
+	background-color: #4caf50; /* Fondo verde para el pie de página */
+	color: #fff; /* Texto blanco para el pie de página */
+	padding: 10px; /* Espaciado interno para el contenido del pie de página */
+	text-align: center; /* Centrar el texto en el pie de página */
+}
+
+img-container {
+	text-align: center;
+}
+  
+.img-container img {
+	max-width: 100%;
+	height: auto;
+}
+  
